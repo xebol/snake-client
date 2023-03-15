@@ -1,6 +1,6 @@
 const net = require("net");
 
-const connect = function() {
+const connect = () => {
 
   const conn = net.createConnection({
     host: '165.227.47.243',
